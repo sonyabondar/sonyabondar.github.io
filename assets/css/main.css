@@ -1,13 +1,6 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Podkova:400,500,600,700,800" rel="stylesheet");
+@import url('https://fonts.googleapis.com/css?family=Podkova:400,500,600,700,800&subset=cyrillic,cyrillic-ext,latin-ext');
 
-/*
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1633,7 +1626,7 @@
 	}
 
 		#header h1 {
-			font-family: 'Arial';
+			font-family: 'Podkova';
 			font-weight: 700;
 			color: #ed786a;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
@@ -1641,6 +1634,7 @@
 
 			#header h1 a {
 				border: 0;
+                line-height: 100px;
 			}
 
 		#header p {
@@ -1850,7 +1844,7 @@
 			}
 
 				#header h1 {
-					font-size: 3em;
+					font-size: 8em;
 					letter-spacing: 13px;
 				}
 

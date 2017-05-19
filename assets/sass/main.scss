@@ -3,7 +3,7 @@
 @import 'libs/mixins';
 @charset "UTF-8";
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+@import url('https://fonts.googleapis.com/css?family=Podkova:400,500,600,700,800&subset=cyrillic,cyrillic-ext,latin-ext');
 
 /*
 	Strongly Typed by HTML5 UP
@@ -51,7 +51,7 @@
 
 	body {
 		background: #f0f0f0;
-		font-family: 'Source Sans Pro';
+		font-family: 'Podkova', serif;
 		font-weight: 300;
 		color: #777;
 
@@ -62,7 +62,7 @@
 	}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro';
+		font-family: 'Podkova', serif;
 		font-weight: 300;
 		color: #777;
 	}
